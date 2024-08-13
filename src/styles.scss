@@ -1,0 +1,14 @@
+@import "node_modules/normalize-scss/sass/normalize/import-now";
+
+@function toRem($value) {
+  $remValue: ($value / 16) + rem; 
+  @return $remValue;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
